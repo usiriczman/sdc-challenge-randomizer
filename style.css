@@ -27,9 +27,12 @@ button:hover {
 .elements
     {
         float: left;
-        padding: 2rem;
-        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;        
     }
+.result {
+    padding-bottom: 2rem;
+}
 
 input {
     width: 100%;
