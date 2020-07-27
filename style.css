@@ -27,7 +27,8 @@ button:hover {
 .elements
     {
         float: left;
-        padding-left: 2rem;
+        padding: 2rem;
+        align-items: center;
     }
 
 input {
