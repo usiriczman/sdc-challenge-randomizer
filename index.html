@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SDC Challenge Randomizer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        
+        <div id="elements">
+            <h1>SDC Challenge Randomizer</h1>           
+            <h3>Antes de empezar</h3>
+
+            <label for="pregunta1">Qué es o para qué sirve / Qué necesidad resuelve</label>
+            <br>
+            <input type="text" id="pregunta1" name="pregunta1">
+            <br>
+            <br>
+
+            <label for="pregunta2">Quién lo va a usar / Quién es el usuario / A quién está destinado</label>
+            <br>
+            <input type="text" id="pregunta2" name="pregunta2">
+            <br>
+            <br>
+
+            <label for="pregunta3">
+            Cuál es el contexto de uso / En qué contexto se utiliza</label>
+            <br>
+            <input type="text" id="pregunta3" name="pregunta3">
+            <br>
+            <br>
+
+            <label for="pregunta4">
+            ¿Cuál es la pantalla anterior a la que estoy ahora?</label>
+            <br>
+            <input type="text" id="pregunta4" name="pregunta4">
+            <br>
+            <br>
+
+            <label for="pregunta5">
+            ¿Qué puntos son interactivos en esta pantalla?</label>
+            <br>
+            <input type="text" id="pregunta5" name="pregunta5">
+            <br>
+            <br>
+
+            <label for="pregunta6">
+            ¿A cuántas pantallas puedo ir desde acá?</label>
+            <br>
+            <input type="text" id="pregunta6" name="pregunta6">
+            <br>
+            <br>
+
+            <h3>
+            Ahora sí
+            </h3>
+
+            <button onclick="setChallenge(), invisible ()" >Quiero mi challenge</button>
+
+            <div id="randomElements" style="display: none">
+                <p>Tu challenge va a ser</p>
+                <span id="pDispositivos"></span>
+                <br />
+                <span id="pPantallas"></span>
+                <br />
+                <span id="pBenchmark"></span>
+            </div>                    
+        </div>
+
+
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
