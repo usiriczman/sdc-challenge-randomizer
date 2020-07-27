@@ -21,7 +21,7 @@ button:hover {
 
 .button:active {
     background-color: #211DE8;
-    transform: translateY(4px);
+    transform: translateY(4px)
 }
 
 .elements
